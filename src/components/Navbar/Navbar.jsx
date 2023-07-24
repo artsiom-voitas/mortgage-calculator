@@ -3,10 +3,10 @@ import React from 'react';
 
 function Navbar() {
     return (
-        <AppBar position='static'>
-            <Container maxWidth='xl'>
+        <AppBar position="static">
+            <Container maxWidth="xl">
                 <Toolbar sx={{ justifyContent: 'center' }}>
-                    <Typography variant='h5'>Morgage calculator</Typography>
+                    <Typography variant="h5">mortgage calculator</Typography>
                 </Toolbar>
             </Container>
         </AppBar>

@@ -1,10 +1,11 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 import { Stack, Typography } from '@mui/material';
-import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
+import { ArcElement, Chart as ChartJS, Legend, Tooltip } from 'chart.js';
 import { Pie } from 'react-chartjs-2';
 
 ChartJS.register(ArcElement, Tooltip, Legend);
+
 function Result({ data }) {
     const { homeValue, loanAmount, loanTerm, interestRate } = data;
     const totalLoanMonths = loanTerm * 12;
@@ -35,10 +36,10 @@ function Result({ data }) {
     return (
         <div>
             <Stack gap={3}>
-                <Typography textAlign='center' variant='h5'>
+                <Typography textAlign="center" variant="h5">
                     Monthly Payment: $ {monthlyPayment.toFixed(2)}
                 </Typography>
-                <Stack direction='row' justifyContent='center'>
+                <Stack direction="row" justifyContent="center">
                     <div>
                         <Pie data={pieChartData} />
                     </div>

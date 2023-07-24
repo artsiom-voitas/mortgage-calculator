@@ -12,7 +12,7 @@
     <img src="./public/calculator.svg" alt="Logo" width="80" height="80" stroke="white">
   </a>
 
-<h3 align="center">Morgage calculator</h3>
+<h3 align="center">mortgage calculator</h3>
 
   <p align="center">
     Calculate the amount of the mortgage.
@@ -49,7 +49,8 @@ This application is built with help of Vite, React, JavaScript and MUI.
 
 Artsiom Voitas - [@artsiom_voitas](https://twitter.com/artsiom_voitas) - artsiom.voitas@gmail.com
 
-Project Link: [https://github.com/artsiom-voitas/mortgage-calculator](https://github.com/artsiom-voitas/mortgage-calculator)
+Project
+Link: [https://github.com/artsiom-voitas/mortgage-calculator](https://github.com/artsiom-voitas/mortgage-calculator)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
